@@ -9,7 +9,7 @@ _24 group portfolio website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at https://front-end-by-edislat22.github.io/11-portfolio-double/
+Site published at https://edislat22.github.io/11-portfolio-double/
 
 Design: [Martin](http://inventheme.com/themeforest/martin/) [backup](https://www.pxdraft.com/themeforest/martin/)
 
