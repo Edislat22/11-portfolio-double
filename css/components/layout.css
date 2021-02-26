@@ -133,44 +133,4 @@
 }
 
 
-.cotainer > .row > .col-1 {
-    width: var(--col1);
-}
-.cotainer > .row > .col-2 {
-    width: var(--col2);
-}
-.cotainer > .row > .col-1 {
-    width: var(--col1);
-}
-.cotainer > .row > .col-3 {
-    width: var(--col3);
-}
-.cotainer > .row > .col-4 {
-    width: var(--col4);
-}
-.cotainer > .row > .col-5 {
-    width: var(--col5);
-}
-.cotainer > .row > .col-6 {
-    width: var(--col6);
-}
-.cotainer > .row > .col-7 {
-    width: var(--col7);
-}
-.cotainer > .row > .col-8 {
-    width: var(--col8);
-}
-.cotainer > .row > .col-9 {
-    width: var(--col9);
-}
-.cotainer > .row > .col-10 {
-    width: var(--col10);
-}
-.cotainer > .row > .col-11 {
-    width: var(--col11);
-}
-.cotainer > .row > .col-12 {
-    width: var(--col12);
-}
-
 
