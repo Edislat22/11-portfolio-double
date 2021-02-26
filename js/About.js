@@ -1,13 +1,13 @@
 // IMPORTS
 /* header */
 /* about me */
-/* resume */ 
-/* testimonials  */
+/* resume */
+/* testimonials */
 /* footer */
 
 // EXECUTION
 /* header */
 /* about me */
-/* resume */ 
-/* testimonials  */
+/* resume */
+/* testimonials */
 /* footer */
