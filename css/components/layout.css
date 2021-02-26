@@ -1,0 +1,176 @@
+:root {
+    --half-gap: 10px;
+    --gap: calc(2 * var(--half-gap));
+    --col1: calc(100% - 12 * var(--gap)) / 12);
+    --col2: calc(var(--col1) + var(--gap) + var(--col1));
+    --col3: calc(var(--col2) + var(--gap) + var(--col1));
+    --col4: calc(var(--col3) + var(--gap) + var(--col1));
+    --col5: calc(var(--col4) + var(--gap) + var(--col1));
+    --col6: calc(var(--col5) + var(--gap) + var(--col1));
+    --col7: calc(var(--col6) + var(--gap) + var(--col1));
+    --col8: calc(var(--col7) + var(--gap) + var(--col1));
+    --col9: calc(var(--col8) + var(--gap) + var(--col1));
+    --col10: calc(var(--col9) + var(--gap) + var(--col1));
+    --col11: calc(var(--col10) + var(--gap) + var(--col1));
+    --col12: calc(var(--col11) + var(--gap) + var(--col1));
+
+}
+
+.cotainer {
+    width: 100%;
+    float: left;
+    padding: 20px 15px;
+}
+.cotainer > .row {
+    width: 100%;
+    float: left;
+    margin: 0;
+    background-color: wheat;
+}
+.cotainer > .row > [class*='col-'] {
+    float: left;
+    margin: 0; var(--half-gap);
+    background-color: yellow;
+}
+
+.cotainer > .row > .col-1 {
+    width: var(--col1);
+}
+.cotainer > .row > .col-2 {
+    width: var(--col2);
+}
+.cotainer > .row > .col-3 {
+    width: var(--col3);
+}
+.cotainer > .row > .col-4 {
+    width: var(--col4);
+}
+.cotainer > .row > .col-5 {
+    width: var(--col5);
+}
+.cotainer > .row > .col-6 {
+    width: var(--col6);
+}
+.cotainer > .row > .col-7 {
+    width: var(--col7);
+}
+.cotainer > .row > .col-8 {
+    width: var(--col8);
+}
+.cotainer > .row > .col-9 {
+    width: var(--col9);
+}
+.cotainer > .row > .col-10 {
+    width: var(--col10);
+}
+.cotainer > .row > .col-11 {
+    width: var(--col11);
+}
+.cotainer > .row > .col-12 {
+    width: var(--col12);
+}
+
+@media (min-width: 576px) {
+    .cotainer > .row {
+        width: 540px;
+        margin: 0 calc(50% - 270px);
+    }
+}
+
+.cotainer > .row > .col-sm-1 {
+    width: var(--col1);
+}
+.cotainer > .row > .col-sm-2 {
+    width: var(--col2);
+}
+.cotainer > .row > .col-sm-3 {
+    width: var(--col3);
+}
+.cotainer > .row > .col-sm-4 {
+    width: var(--col4);
+}
+.cotainer > .row > .col-sm-5 {
+    width: var(--col5);
+}
+.cotainer > .row > .col-sm-6 {
+    width: var(--col6);
+}
+.cotainer > .row > .col-sm-7 {
+    width: var(--col7);
+}
+.cotainer > .row > .col-sm-8 {
+    width: var(--col8);
+}
+.cotainer > .row > .col-sm-9 {
+    width: var(--col9);
+}
+.cotainer > .row > .col-sm-10 {
+    width: var(--col10);
+}
+.cotainer > .row > .col-sm-11 {
+    width: var(--col11);
+}
+.cotainer > .row > .col-sm-12 {
+    width: var(--col12);
+}
+@media (min-width: 768px) {
+    .cotainer > .row {
+        width: 720px;
+        margin: 0 calc(50% - 360px);
+    }
+}
+@media (min-width: 992px) {
+    .cotainer > .row {
+        width: 960px;
+        margin: 0 calc(50% - 480px);
+    }
+}
+@media (min-width: 1200px) {
+    .cotainer > .row {
+        width: 960px;
+        margin: 0 calc(50% - 480px);
+    }
+}
+
+
+.cotainer > .row > .col-1 {
+    width: var(--col1);
+}
+.cotainer > .row > .col-2 {
+    width: var(--col2);
+}
+.cotainer > .row > .col-1 {
+    width: var(--col1);
+}
+.cotainer > .row > .col-3 {
+    width: var(--col3);
+}
+.cotainer > .row > .col-4 {
+    width: var(--col4);
+}
+.cotainer > .row > .col-5 {
+    width: var(--col5);
+}
+.cotainer > .row > .col-6 {
+    width: var(--col6);
+}
+.cotainer > .row > .col-7 {
+    width: var(--col7);
+}
+.cotainer > .row > .col-8 {
+    width: var(--col8);
+}
+.cotainer > .row > .col-9 {
+    width: var(--col9);
+}
+.cotainer > .row > .col-10 {
+    width: var(--col10);
+}
+.cotainer > .row > .col-11 {
+    width: var(--col11);
+}
+.cotainer > .row > .col-12 {
+    width: var(--col12);
+}
+
+
