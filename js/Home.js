@@ -3,10 +3,13 @@
 /* hero */
 /* about me */
 /* services */
-/* resume */ 
+import { services } from './components/services/services.js';
+import { servicesData } from './data/servicesData.js';
+
+/* resume */
 /* freelance */
 /* portfolio */
-/* testimonials  */
+/* testimonials */
 /* blogs */
 /* contact me */
 /* footer */
@@ -16,10 +19,12 @@
 /* hero */
 /* about me */
 /* services */
-/* resume */ 
+services(servicesData);
+
+/* resume */
 /* freelance */
 /* portfolio */
-/* testimonials  */
+/* testimonials */
 /* blogs */
 /* contact me */
 /* footer */
